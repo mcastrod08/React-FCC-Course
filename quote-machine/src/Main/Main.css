@@ -1,0 +1,65 @@
+#box {
+  background-color: #5984dbc4;
+  min-height: 96vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+#quote-box {
+  text-align: center;
+  background-color: #f7f7f7;
+  height: 50%;
+  width: 50%;
+  border: 3px solid #5273f2c4;
+  border-radius: 2%;
+  color: #467b2d;
+}
+
+@media (max-width: 768px) {
+  #quote-box {
+    height: 100%;
+    width: 100%;
+  }
+}
+
+.quote {
+  margin-right: 10px
+}
+
+#text {
+  margin: 50px;
+  font-size: 20px;
+}
+
+
+#author {
+  margin-top: 40px;
+}
+
+#buttons {
+  margin-top: 40px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.btn-quote,
+.btn-twitter {
+  display: flex;
+  justify-content: space-evenly;
+  width: 50%;
+  margin-bottom: 40px
+}
+
+.btn-quote button,
+.btn-twitter button {
+  border-radius: 20px;
+  color: #fff;
+  background-color: #5318d2a3;
+  outline: none;
+  font-size: 0.85em;
+  padding: 8px 18px 6px 18px;
+  opacity: 1;
+  cursor: pointer;
+}
